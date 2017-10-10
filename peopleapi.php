@@ -2,9 +2,9 @@
 
 class Person {
 
-var $person ID;
-var $First Name;
-var $Last Name;
+var $PersonID;
+var $FirstName;
+var $LastName;
 
 }
 
@@ -12,9 +12,9 @@ $items = array();
 
 for($i = 1; $i < 10; $i++) {
 $personRecord = new Person();
-$personRecord->Person ID = $i;
-$personRecord->First Name = "Name $i";
-$personRecord->Last Name = "Last Name $i";
+$personRecord->PersonID = $i;
+$personRecord->FirstName = "Name $i";
+$personRecord->LastName = "LastName $i";
 $items[$i] = $personRecord;
 }
 
